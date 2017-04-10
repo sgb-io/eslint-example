@@ -1,0 +1,22 @@
+{
+  "name": "eslint-example",
+  "version": "1.0.0",
+  "description": "Example of using eslint to keep your code high quality, consistent and maintainable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgb-io/eslint-example.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Sam Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgb-io/eslint-example/issues"
+  },
+  "homepage": "https://github.com/sgb-io/eslint-example#readme"
+}

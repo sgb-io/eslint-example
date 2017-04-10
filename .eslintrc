@@ -1,0 +1,32 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "comma-dangle": ["off", "always"],
+    "no-underscore-dangle": ["off", {
+      "allow": ["_foo"]
+    }],
+    "require-jsdoc": ["error", {
+      "require": {
+        "FunctionDeclaration": false,
+        "MethodDefinition": true,
+        "ClassDeclaration": false
+      }
+    }],
+    "valid-jsdoc": ["error", {
+      "requireReturn": false,
+      "requireParamDescription": false,
+      "requireReturnDescription": false
+    }],
+    "class-methods-use-this": ["off"],
+    "import/no-unresolved": ["off"],
+    "no-unused-vars": ["warn"],
+    "no-restricted-syntax": ["off"],
+    "no-labels": ["error", {
+      "allowLoop": true
+    }]
+  }
+}
